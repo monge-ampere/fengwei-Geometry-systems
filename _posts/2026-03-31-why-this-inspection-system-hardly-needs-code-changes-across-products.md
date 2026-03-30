@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第三篇：为什么这套检测系统换产品几乎不用改代码——一份 XML 里的模板、拓扑与容错"
-date: 2026-03-30 00:00:00 +0800
+date: 2026-03-30 13:00:00 +0800
 categories: curved-surface-pattern-inspection
 ---
 
