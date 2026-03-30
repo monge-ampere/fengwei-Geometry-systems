@@ -88,6 +88,7 @@ categories: curved-surface-pattern-inspection
     </templPathSet>
 </entity>
 
+```
 
 上面这段代码只保留了 xml 的主干结构。实际文件中，`character` 下会列出项目里出现的各类字符或局部图样 block 的结构模板，`globalGeo` 下则保存对应的全局几何锚点。这里省略了大量具体点坐标，只保留其组织方式，是为了更直观地展示这份模板文件背后的几何逻辑。
 
