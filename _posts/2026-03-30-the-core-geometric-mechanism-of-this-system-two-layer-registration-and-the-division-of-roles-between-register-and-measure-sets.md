@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "第四篇：这套系统的核心几何机制——两层配准与注册集、测量集的角色分工"
+title: "第四篇：曲面 Pattern 缺陷检测的核心几何机制——两层配准与注册集、测量集的角色分工"
 date: 2026-03-30 18:00:00 +0800
 categories: curved-surface-pattern-inspection
 ---
 
-# The Core Geometric Mechanism of This System: Two-Layer Registration and the Division of Roles Between the Register Set and the Measure Set
+# The Core Geometric Mechanism of Curved-Surface Pattern Inspection: Two-Layer Registration and the Functional Division Between the Register Set and the Measure Set
 
 > **English Abstract**  
 > This article explains the core geometric mechanism of the inspection system: a two-layer registration strategy together with the functional separation between the register set and the measure set. The first layer establishes coarse correspondence between local units at the block level, while the second layer brings structural templates into the measured image at a finer scale. At the same time, the system does not force the same points to serve both localization and defect sensing. Instead, it separates the points used for registration from those used for measurement, so that stability and sensitivity can be optimized for different purposes. From this perspective, registration is not the final decision maker, but the geometric foundation on which subsequent defect measurement becomes reliable.
