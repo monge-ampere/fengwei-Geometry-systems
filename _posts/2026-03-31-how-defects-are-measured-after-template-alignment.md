@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第五篇：曲面 Pattern 缺陷是怎么被测出来的——从模板落位到缺陷判定"
-date: 2026-03-31 00:00:00 +0800
+date: 2026-03-31 12:00:00 +0800
 categories: curved-surface-pattern-inspection
 ---
 
