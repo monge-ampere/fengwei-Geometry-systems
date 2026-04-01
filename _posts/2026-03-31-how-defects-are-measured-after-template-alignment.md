@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "第五篇：模板落位之后，缺陷是怎么被测出来的？——从测量集到缺陷判定"
+title: "第五篇：曲面 Pattern 缺陷是怎么被测出来的——从模板落位到缺陷判定"
 date: 2026-03-31 00:00:00 +0800
 categories: curved-surface-pattern-inspection
 ---
 
-# How Defects Are Actually Measured After Template Alignment: From the Measure Set to Defect Decision
+# How Curved-Surface Pattern Defects Are Actually Measured: From Template Alignment to Defect Decision
 
 > **English Abstract**  
 > This article explains how defect detection is actually carried out after template alignment. Once the measure set has been brought into the measured image, the system does not scan the whole bitmap blindly; instead, it performs point-wise local measurement along aligned structural points, records point-level abnormal responses, and then aggregates them into final defect regions and defect types. From this perspective, defects are not directly “found” in the image, but measured out of an already established geometric relation.
