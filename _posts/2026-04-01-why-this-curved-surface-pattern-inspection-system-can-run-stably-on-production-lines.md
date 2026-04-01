@@ -1,4 +1,14 @@
-# 第六篇：曲面 Pattern 检测系统为什么能在产线上稳定跑起来——节拍、并行与配置路由
+---
+layout: post
+title: "第六篇：曲面 Pattern 检测系统为什么能在产线上稳定跑起来——节拍、并行与配置路由"
+date: 2026-04-01 00:00:00 +0800
+categories: curved-surface-pattern-inspection
+---
+
+# Why This Curved-Surface Pattern Inspection System Can Run Stably on Production Lines: Takt Time, Parallelism, and Configuration Routing
+
+> **English Abstract**  
+> This article explains why the system can run stably on real production lines after the detection logic has already been established. The key lies not only in whether defects can be measured, but in how configurations are routed, how tasks are organized, how takt-time constraints are satisfied, and how the implementation layer is made operational. In this sense, a real industrial system must not only detect correctly, but also know how to load the right configuration, execute within cycle time, and remain maintainable in deployment.
 
 在前一篇里，我主要讨论了模板落位之后，缺陷是如何沿着测量集被逐点测出来的。到那一步为止，这套系统已经回答了一个核心检测问题：它不是在整张图里盲目寻找异常，而是在模板已经进入实测图像、测量点已经落位之后，沿着结构关系去感知局部偏差。
 
@@ -6,9 +16,9 @@
 
 真正的工业系统，除了要“能检出来”，还必须回答另外几个同样现实的问题：它如何知道这次该加载哪一套配置？不同产品、不同国别、不同图档之间如何切换？检测如何满足产线节拍？为什么便宜的上位机也能把整套流程跑起来？以及，为什么实施层不是简单地点点工具，而是一层真正的系统能力？
 
-也就是说，前面几篇更多是在讲“这套系统为什么能检”，而这一篇开始要讲“它为什么能跑”。
+到这里，问题已经不再只是“能不能检出来”，而变成了：这套检测能力能否被真正组织进一条持续运行的工业流程里。
 
-如果把前面的模板、配准和测量层看作这套系统的检测主干，那么这一篇要讨论的，就是它的运行主干：配置是如何被路由进来的，任务是如何被组织起来的，节拍是如何被保证的，以及实施层为什么本身就是系统能力的一部分。
+如果说前面的模板、配准和测量层构成了这套系统的检测主干，那么这一篇要进入的，就是它的运行主干：配置如何被路由进来，任务如何被组织起来，节拍如何被保证，以及实施层为什么本身就是系统能力的一部分。
 
 所以，这一篇真正要讲清楚的是：
 
