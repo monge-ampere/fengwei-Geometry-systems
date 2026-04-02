@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第七篇：为什么模板不是随手截个图？这套系统真正难的是模板生产链"
-date: 2026-04-02 00:00:00 +0800
+date: 2026-04-02 12:00:00 +0800
 categories: curved-surface-pattern-inspection
 ---
 
