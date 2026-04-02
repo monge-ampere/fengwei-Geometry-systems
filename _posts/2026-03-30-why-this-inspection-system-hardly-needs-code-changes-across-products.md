@@ -2,7 +2,6 @@
 layout: post
 title: "第三篇：为什么曲面 Pattern 缺陷检测系统能跨产品复用——一份 XML 里的模板、拓扑与容错"
 date: 2026-03-30 14:00:00 +0800
-categories: curved-surface-pattern-inspection
 ---
 
 # Why Curved-Surface Pattern Inspection Systems Can Be Reused Across Products: Templates, Topology, and Tolerance in One XML File
