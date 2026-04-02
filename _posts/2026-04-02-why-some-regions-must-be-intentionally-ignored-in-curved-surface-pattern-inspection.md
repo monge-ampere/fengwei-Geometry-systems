@@ -78,11 +78,11 @@ date: 2026-04-02 19:00:00 +0800
 
 如果只看参数名，`dock0="left"`、`dock1="center"` 这样的写法会显得有些抽象。下面这两幅示意图可以更直观地说明：擦除规则并不是随意抹掉一块区域，而是在 `ROI` 内显式定义“从哪一边进入、从哪个位置开始、向内延伸多深”的局部禁检区。
 
-![dock0="left", dock1="center" 的擦除示意图]({{ "/assets/images/b1.png" | relative_url }})
+![dock0="left", dock1="center" 的擦除示意图]({{ "/assets/images/b1.bmp" | relative_url }})
 
 **图 1：** `dock0="left"`、`dock1="center"` 的局部擦除示意。表示从 `ROI` 左边进入，并在左边的中段位置开始定义擦除区域。
 
-![dock0="bottom", dock1="begin" 的擦除示意图]({{ "/assets/images/b2.png" | relative_url }})
+![dock0="bottom", dock1="begin" 的擦除示意图]({{ "/assets/images/b2.bmp" | relative_url }})
 
 **图 2：** `dock0="bottom"`、`dock1="begin"` 的局部擦除示意。表示从 `ROI` 下边进入，并在该边的起始位置开始定义擦除区域。
 
