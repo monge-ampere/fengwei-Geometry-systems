@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第八篇：曲面 Pattern 缺陷检测里，为什么有些区域要故意不检——ROI 擦除与局部禁检机制"
-date: 2026-04-02 12:00:00 +0800
+date: 2026-04-02 19:00:00 +0800
 ---
 
 # Why Some Regions in Curved-Surface Pattern Inspection Must Be Intentionally Ignored: ROI Erasure and Local Exclusion Rules
