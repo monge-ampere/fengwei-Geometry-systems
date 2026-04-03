@@ -1,49 +1,60 @@
-# Curved-Surface Pattern Inspection
+# Curved-Surface Pattern Inspection: Ten Lectures on an Industrial-Grade System
 
-A structured rewriting of an industrial-grade system for curved-surface pattern inspection.
+A technical series on curved-surface pattern inspection, written from the perspective of geometric structure, defect measurement, and deployable industrial system design.
 
-Website: https://monge-ampere.github.io/curved-surface-pattern-inspection/
+**Website:** https://monge-ampere.github.io/curved-surface-pattern-inspection/
 
-## About this site
+## About
 
-This repository is dedicated to a technical series on curved-surface pattern inspection.  
-The series treats the subject not as ordinary character recognition or simple template matching, but as an industrial vision problem involving:
+This repository hosts a multi-part technical series on curved-surface pattern inspection.
+
+Rather than treating the subject as ordinary character recognition, simple template matching, or generic defect classification, the series approaches it as an industrial vision problem involving:
 
 - geometric deformation,
 - structural normalization,
-- local anomaly discrimination,
-- template parameterization,
-- and deployable system design.
+- template organization,
+- registration and measurement,
+- configuration-driven reuse,
+- multithreaded execution,
+- plugin-based extension,
+- and deployment under real production constraints.
 
 The discussion is based on a core inspection system developed in 2020 and deployed at scale on Apple AirPods-related production lines from 2021 to 2023.
 
-## What this series tries to do
+## What this series aims to do
 
-The goal of this site is not to present scattered project notes, but to reconstruct a real industrial system as a coherent technical object, including:
+The goal of this site is not to present scattered project notes, but to reconstruct a real industrial inspection system as a coherent technical object. In particular, the series tries to make explicit:
 
-- problem formulation,
-- structural logic,
-- geometric template organization,
-- registration and measurement mechanisms,
-- engineering deployment considerations,
-- and the methodological lessons behind the system.
+- what problem the system actually solves,
+- how templates, XML, blocks, and geometric anchors are organized,
+- how registration and measurement are coupled,
+- how defect decisions are produced from aligned measurement sets,
+- how routing, multithreading, plugins, and AI modules are integrated,
+- and why industrial productization depends on more than algorithms alone.
 
-## Articles
+## Topics covered
 
-This site contains a multi-part series, including topics such as:
+The series includes topics such as:
 
-1. Why this system deserves to be rewritten
-2. Why curved-surface pattern inspection is not ordinary character recognition
-3. How geometric templates, topology, and tolerance are organized in XML
-4. How the registration pipeline works inside the system
-5. Why industrial difficulty lies not only in algorithms, but in turning them into a deployable system
+1. why this system is worth explaining systematically,
+2. why curved-surface pattern inspection is not ordinary OCR,
+3. how XML organizes templates, topology, tolerance, and structural roles,
+4. how the two-layer registration mechanism works,
+5. how defects are measured after template alignment,
+6. how configuration routing, multithreading, and implementation support industrial deployment,
+7. why template creation is itself a production chain,
+8. why some ROI regions must be explicitly excluded from detection,
+9. how plugins and AI modules extend the main inspection pipeline,
+10. why an almost productized industrial algorithm system can still fall short at the organizational level.
 
 ## Language
 
 Most articles are written in Chinese.  
-English titles or abstracts may be added where appropriate.
+English titles and abstracts are provided for many posts.
 
-## Contact
+## Author
 
-Wei Feng  
+**Wei Feng**  
+Geometric Algorithm Engineer
+
 Email: weifeng@stu.ouc.edu.cn
