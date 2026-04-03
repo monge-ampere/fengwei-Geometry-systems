@@ -9,8 +9,6 @@ date: 2026-04-02 12:00:00 +0800
 > **English Abstract**  
 > This article explains why template creation in the inspection system is not a trivial image-cropping step, but a full production chain. Templates must be validated, corrected, standardized, and organized into structural objects before they can enter XML, CSV, and the downstream detection pipeline. More importantly, template production also determines the minimal registration unit: some templates are built from a single character, while others deliberately merge multiple characters or local structures to improve the robustness of nonrigid registration. From this perspective, template production is not a preparatory convenience, but an upstream structural mechanism that directly affects registration stability, missed defects, and false alarms.
 
-# 第七篇：为什么模板不是随手截个图？这套系统真正难的是模板生产链
-
 在前面几篇里，我已经讲了这套系统的问题本体、xml 如何组织模板与几何、两层配准如何发挥作用、缺陷如何沿测量集被逐点测出来，以及整套系统为什么能够在真实产线上跑起来。
 
 但这些内容其实都默认了一件事：
