@@ -13,7 +13,7 @@ date: 2026-03-30 08:00:00 +0800
 
 如果只从抽象层面谈“曲面形变”和“产品差异”，读者未必能立刻感受到这类问题为什么会把普通字符检测思路彻底推翻。更直观的方式，是先看两张真实现场 CCD 采集图。
 
-![Two real-world sources of difficulty in curved-surface pattern inspection]({{ "/assets/images/inspection_problem_overview_real_ccd.png" | relative_url }})
+![Two real-world sources of difficulty in curved-surface pattern inspection]({{ "/assets/images/inspection_problem_overview_real_ccd_v2.png" | relative_url }})
 
 *图 1：曲面 Pattern 检测中两类最基本、也最容易被低估的难点。左图展示了曲面成像带来的明显形变；右图展示了不同国别 Pattern 之间的巨大差异。对这套系统来说，更关键的是：耳机和充电盒共用同一套 DLL，不同国别乃至不同产品也尽量保持同一核心算法内核，只通过图档、XML、INI 等外部描述层完成适配。*
 
